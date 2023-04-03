@@ -59,9 +59,9 @@ inquirer.prompt([
     console.log('Error: No shape selected');
   }
   const content = generateLogo(answers, shapeContent);
-  fs.writeFile('Generated logo.svg', content, (err) => {
+  fs.writeFile('logo.svg', content, (err) => {
     if (err) { return console.log(err); }
     
-console.log('Success!');
+console.log('Generated logo.svg');
   });
 })
