@@ -16,7 +16,7 @@ describe("square" , () => {
         const obj = new Square();
         obj.setColor("blue");
         const result = obj.render();
-        expect(result).toEqual(`<rect width="100%" height="100%" fill="blue" />`);
+        expect(result).toEqual(`<rect x="50" y="0" width="200" height="200" fill="blue" />`);
     })
 });
 
