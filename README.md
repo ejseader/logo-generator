@@ -6,7 +6,7 @@
 
 
 ## SVG Example
-### ![EJS Logo](examples/Generated%20logo.svg)
+### ![EJS Logo](examples/logo.svg)
 ---
 
 ## Testing
